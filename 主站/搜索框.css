@@ -1,0 +1,32 @@
+ * {
+    margin: 0;
+    padding: 0;
+}
+.parent {
+    position: relative;
+    margin-left: 1100px;
+}
+.search {
+    display: block;
+    width: 230px;
+    height: 25px;
+    border-radius: 18px;
+    outline: none;
+    border: 1px solid #ccc;
+    padding-left: 20px;
+    position: absolute;
+
+}
+.btn {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    background: url("image/搜索框.png")/* no-repeat -2px -5px*/;
+    background-position: center;
+    background-size: 21px 22px;
+    top: 3px;
+    left: 200px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

@@ -1,0 +1,78 @@
+.denglu {
+	margin-top: 150px;
+	margin-left: 850px;
+}
+.zhuce {
+	margin-top: 100px;
+	margin-left: 400px;
+}
+.content {
+	float: left;
+}
+.edit {
+	border-radius: 4px;
+	width: 400px;
+	height: 40px;
+	background-color: #FFFFAA;
+	border:0;
+	outline: none;
+	font-size: 18px;
+}
+.edit1 {
+	border-radius: 4px;
+	width: 400px;
+	height: 40px;
+	background-color: #FFFFFF;
+	border:0;
+	outline: none;
+	font-size: 18px;
+}
+.sub {
+	border-radius: 4px;
+	border:0;
+	outline: none;
+	width: 185px;
+	height: 40px;
+	font-size: 18px;
+	color: white;
+	background-color: #CE0000;
+}
+.sub1 {
+	border-radius: 4px;
+	border:0;
+	outline: none;
+	width: 400px;
+	height: 40px;
+	font-size: 18px;
+	color: white;
+	background-color: #CE0000;
+}
+.sub:hover {
+	opacity: 0.8
+}
+.sub1:hover {
+	opacity: 0.8
+}
+.back {
+	margin-left:340px;
+	margin-top: 20px;
+	border:0;
+	outline: none;
+	background-color: #F3F3FA;
+}
+.login {
+	border-radius: 4px;
+	border:0;
+	outline: none;
+	width: 185px;
+	height: 40px;
+	margin-left: 27px;
+	font-size: 18px;
+	background-color: #FFFFFF;
+}
+.login:hover {
+    color: #CE0000;
+}
+.back:hover{
+	color: #CE0000;
+}

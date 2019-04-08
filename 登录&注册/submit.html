@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>登录</title>
+	<link rel="stylesheet" type="text/css" href="登录&注册.css">
+	<link rel="stylesheet" type="text/css" href="结尾.css">
+	<link rel="shortcut icon" href="image/图标.ico" />
+	<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	#daohang {
+		list-style-type: none;  /*移除列表前小标志*/
+		width: auto; 
+		overflow: hidden;
+		border-bottom-width: 1.5px;
+		border-bottom-style: solid;
+		border-bottom-color: #CE0000;
+		background-color: #000000;
+	}
+	li{
+		float: left;
+	}
+	li a{
+		display: block; /*显示块元素链接，让整体变为可点击的链接区域*/
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+	li a:hover:not(.active){
+		color: #CE0000;
+	}
+	a.active{
+		color: white;
+		background-color: #CE0000;
+	}
+	#daohang1{
+		margin-left:200px;
+	}
+	.daohang2{
+		margin-left:1093px;
+	}
+
+	.search {
+    width: 180px;
+    height: 25px; 
+    margin-top: 8px;
+    margin-left: 20px;
+    border-radius: 18px;
+    outline: none;
+    border: 1px solid #ccc;
+
+}
+
+	.btn {
+    height: 18px;
+    width: 18px;
+    background: url("image/搜索框.png")/* no-repeat -2px -5px*/;
+    background-size: 18px 18px;
+    top: 10px;
+    left: 1330px;
+    position:absolute;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+</style>
+</head>
+<body style="background-color: #F3F3FA">
+	<ul id="daohang">
+		<div id="daohang1">
+		<li><a href="../主站/M.html" class="iconfont icon-maomi tooltip">主站</a></li>
+		<li><a href="#zhibo">直播</a></li>
+		<li><a href="#active">活动</a></li>
+		<li><a href="#phone">手机客户端</a></li>
+		</div>
+
+		<div class="daohang2">
+		<li><a class="active" href="#tougao">投稿</a></li>
+			<form action="" class="parent">
+        <input type="text" class="search" placeholder=" 搜索">
+        <a href="../搜索/搜索.html">
+        <input type="button" name="" id="" class="btn"></a>
+    </form>
+    </div>
+
+
+	</ul>
+
+
+	<div class="content" style="margin-left: 200px;margin-top: 150px">
+		<img src="image/二维码.png" width="500px" height="300px">
+	</div>
+
+	<div class="denglu">
+		<p style="font-size: 18px">登录 猫耳FM</p><br>
+		<input class="edit" type="user" name="user" placeholder="请输入用户名"><br><br>
+		<input class="edit" type="password" name="password" placeholder="请输入密码"><br><br>
+		<input type="checkbox" name=""> 记住我<br><br>
+		<div>
+			<button class="sub" type="submit">登录</button>
+			     <a href="register.html">
+		             <button class="login" type="login">注册</button>
+		         </a>
+	    </div>
+	</div>
+
+	<hr style="font-weight: 1px;color: gray;margin-top: 120px">
+<div class="end">
+	<a class="font" href="#">建议与反馈 </a><a class="font" href="">|</a>
+	<a class="font" href="#">APP下载 </a><a class="font" href="">|</a>
+	<a class="font" href="#">用户协议 </a><a class="font" href="">|</a>
+	<a class="font" href="#">探索与发现 </a><a class="font" href="">|</a>
+	<a class="font" href="#">联系我们 </a><a class="font" href="">|</a>
+	<a class="font" href="#">加入我们 </a><a class="font" href="">|</a>
+	<a class="font" href="#">百度百科 </a>
+</div>
+
+<div class="end1">
+	<a class="font" href="#">京ICP备14055174号-1 </a><a class="font" href="">|</a>
+	<a class="font" href="#">网络文化经营许可证: 京网文 [2017] 6429-733 号 </a> 
+</div>
+
+</body>
+</html>

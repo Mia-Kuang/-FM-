@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>搜索-综合-M站</title>
+	<link rel="shortcut icon" href="image/图标.ico" />
+	<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	#daohang {
+		list-style-type: none;  /*移除列表前小标志*/
+		width: auto; 
+		overflow: hidden;
+		border-bottom-width: 1.5px;
+		border-bottom-style: solid;
+		border-bottom-color: #CE0000;
+		background-color: #000000;
+	}
+	li{
+		float: left;
+	}
+	li a{
+		display: block; /*显示块元素链接，让整体变为可点击的链接区域*/
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+	li a:hover:not(.active){
+		color: #CE0000;
+	}
+	.active{
+		color: white;
+		background-color: #CE0000;
+	}
+	#daohang1{
+		margin-left:200px;
+	}
+	.daohang2{
+		margin-left:1093px;
+	}
+
+	.img {
+		width: 450px;
+		height: 75px;
+		margin-left: 520px;
+		margin-top: 10px;
+	}
+	.search {
+		width: 500px;
+		height: 30px;
+		margin: auto;
+		display: inline-block;
+		margin-left: 530px;
+		font-size: 0;
+		border-radius: 3px;
+	}
+	.search1 {
+		outline: none;
+		border:1px solid #000000;
+		border-radius: 3px 0 0 3px;
+		font-size: 18px;
+
+	}
+	.search2 {
+		width: 100px;
+		height: 34px;
+		border-radius:0 3px  3px 0 ;
+		background-color: #000000;
+		outline: none;
+		border:0;
+		color: white;
+		
+	}
+	.search2:hover {
+		opacity: 0.8;
+	}
+</style>
+</head>
+<body>
+	<ul id="daohang">
+		<div id="daohang1">
+		<li><a href="../主站/M.html" class="iconfont icon-maomi tooltip">主站</a></li>
+		<li><a href="#zhibo">直播</a></li>
+		<li><a href="#active">活动</a></li>
+		<li><a href="#phone">手机客户端</a></li>
+		</div>
+		<div class="daohang2">
+		<li ><a href="../登录&注册/submit.html" >登录/注册</a></li>
+		<li><a class="active" href="#tougao">投稿</a></li>
+    </div>	
+	</ul>
+
+	<img class="img" src="image/misseven.png"><br>
+
+	<div>
+	<div class="search">
+		<input class="search1" type="text" name="search" style="width: 320px;height: 31px">
+		<button class="search2">搜索</button>
+	</div>
+    </div>
+
+    <img src="image/1.png" style="margin-top: 50px;margin-left: 450px">
+</body>
+</html>

@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>猫耳FM_来自二次元的声音</title>
+	<link rel="stylesheet" type="text/css" href="下拉菜单.css">
+	<link rel="stylesheet" type="text/css" href="推荐.css">
+	<link rel="stylesheet" type="text/css" href="轮播.css"/>
+	<link rel="stylesheet" type="text/css" href="搜索框.css">
+	<link rel="stylesheet" type="text/css" href="提示工具.css">
+	<link rel="stylesheet" type="text/css" href="热门音单.css">
+	<link rel="stylesheet" type="text/css" href="结尾.css">
+	<link rel="stylesheet" href="iconfont/iconfont.css">
+	<link rel="shortcut icon" href="image/图标.ico" /> 
+	<style>
+
+	#daohang {
+		list-style-type: none;  /*移除列表前小标志*/
+		overflow: hidden;
+		border-bottom-width: 1.5px;
+		border-bottom-style: solid;
+		border-bottom-color: #CE0000;
+		background-color: #000000;
+	}
+	.cc {
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		border-bottom-width: 2px;
+	}
+
+	#daohang3 {
+		list-style-type: none;  /*移除列表前小标志*/
+		padding: 0;
+		width: auto;
+		height: 40px;
+		overflow: hidden;
+		border-bottom-width: 1px;
+		background-color: #FFFFFF;
+		border-bottom-style: solid;
+		border-bottom-color: #D0D0D0;
+	}
+	.dd {
+		margin: -11px;
+		padding: 0;
+		overflow: hidden;
+		float: left;
+		border:1.5px solid #D0D0D0;
+		background-color: #FFFFFF;
+		z-index: 10;
+
+	}
+
+	li{
+		float: left;
+	}
+
+	#daohang1{
+		margin-left:200px;
+	}
+	.daohang2{
+		margin-left:1065px;
+	}
+
+	li a{
+		display: block; /*显示块元素链接，让整体变为可点击的链接区域*/
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+
+	#daohang3 li a{
+		display: block; /*显示块元素链接，让整体变为可点击的链接区域*/
+		color: black;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+	#daohang4{
+		margin-left: 200px;
+	}
+
+	li a:hover:not(.active){
+		color: #CE0000;
+	}
+	#daohang3 li a:hover:not(.no){
+		color: #CE0000;
+	}
+
+	li a.no{
+		color: white;
+	}
+
+    a.active{
+		color: white;
+		background-color: #CE0000;
+	}
+
+	#daohangfengmian {
+		background-image: url(导航栏.png);
+		width: auto;
+		background-size: 100%;
+		height: 150px;
+		background-clip:padding-box;
+	}
+</style>
+</head>
+<body style="background-color: #FFFFFF">
+	<ul id="daohang">
+		<div id="daohang1">
+		<li><a href="#home" style="color:#CE0000" class="iconfont icon-maomi tooltip">主站</a></li>
+
+		<li><a href="#zhibo">直播</a></li>
+		<li><a href="#active">活动</a></li>
+		<li><a href="#phone">手机客户端</a></li>
+		</div>
+		<div class="daohang2">
+		<li ><a href="../登录&注册/submit.html" >登录/注册</a></li>
+		<li><a href="#dongtai">动态</a></li>
+		<li><a href="#history">历史</a></li>
+
+<!-- 投稿的下拉菜单 -->
+		<div class="dropdown">
+		<a class="active dropbtn" href="#tougao">投稿</a>
+			<div class="dropdown-content">
+				<ul class="cc">
+		        <li><a href="#">我要投稿</a></li>
+		        <li><a href="#">声音投稿</a></li>
+		        <li><a href="#">图片投稿</a></li>
+		        <li><a href="#">申请加 V</a></li>		 
+		        <li><a href="#">玩转M站</a></li>
+		        <li><a href="#">制作头像</a></li>
+		        <li><a href="#">如何插图</a></li>
+		        <li><a href="#">建立剧集</a></li>
+		        </ul>
+	        </div>
+        </div>
+
+    </div>				
+	</ul>
+
+
+<!-- 导航封面 -->
+	<!-- 搜索框 -->
+	<div id="daohangfengmian" >
+
+	<div class="container">
+    <form action="" class="parent">
+        <input type="text" class="search" placeholder="搜索">
+        <a href="../搜索/搜索.html">
+        <input type="button" name="" id="" class="btn"></a>
+    </form> 
+</div>
+
+</div>
+
+	<ul id="daohang3">
+		<div id="daohang4">
+		<li><a class="no" href="#shouye">首页</a></li>
+
+        <div class="dropdown">
+		<a href="#manhua" class="dropbtn1">有声漫画</a>
+		<div class="dropdown-content1">
+			<ul class="dd">
+				<li><a href="#">有声中漫</a></li>
+			</ul>
+		</div>
+	</div>
+
+		<div class="dropdown">
+		<a href="#guangboju" class="dropbtn1">广播剧</a>
+		<div class="dropdown-content1">
+			<ul class="dd">
+				<li><a href="#">纯爱(中文)</a></li>
+				<li><a href="#">言情</a></li>
+				<li><a href="#">全年龄</a></li>
+			</ul>
+		</div>
+	</div>
+
+		<div class="dropdown">
+		<a href="#music" class="dropbtn1">音乐</a>
+		<div class="dropdown-content1">
+			<ul class="dd">
+				<li><a href="#">原唱音乐</a></li>
+				<li><a href="#">翻唱</a></li>
+				<li><a href="#">VOCALOID</a></li>
+				<li><a href="#">三次元音乐</a></li>
+				<li><a href="#">演奏创作</a></li>
+				<li><a href="#">剧情歌</a></li>
+				<li><a href="#">二次元音乐</a></li>
+				<li><a href="#">OP/ED/OST</a></li>
+			</ul>
+		</div>
+	</div>
+
+		<div class="dropdown">
+		<a href="#催眠" class="dropbtn1">催眠</a>
+		<div class="dropdown-content1">
+			<ul class="dd">
+				<li><a href="#">催眠无人声</a></li>
+			</ul>
+		</div>
+	</div>
+
+		<div class="dropdown">
+		<a href="#娱乐" class="dropbtn1">娱乐</a>
+		<div class="dropdown-content1">
+			<ul class="dd">
+				<li><a href="#">萌妹</a></li>
+				<li><a href="#">鬼畜/搞笑</a></li>
+				<li><a href="#">电台</a></li>
+				<li><a href="#">怪谈/奇事</a></li>
+				<li><a href="#">主站</a></li>
+			</ul>
+		</div>
+	</div>
+
+		<div class="dropdown">
+		<a href="#rizhua" class="dropbtn1">日抓</a>
+		<div class="dropdown-content1">
+			<ul class="dd">
+				<li><a href="#">纯爱(日文)</a></li>
+				<li><a href="#">乙女</a></li>
+				<li><a href="#">一般</a></li>
+			</ul>
+		</div>
+	</div>
+
+		<div class="dropdown">
+		<a href="#listen" class="dropbtn1">听书</a>
+		<div class="dropdown-content1">
+			<ul class="dd">
+				<li><a href="#">轻小说</a></li>
+				<li><a href="#">网络小说</a></li>
+				<li><a href="#">儿童</a></li>
+			</ul>
+		</div>
+	</div>
+
+		<div class="dropdown">
+		<a href="#peiyin" class="dropbtn1">配音</a>
+		<div class="dropdown-content1">
+			<ul class="dd">
+				<li><a href="#">中文配音</a></li>
+				<li><a href="#">日文配音</a></li>
+				<li><a href="#">角色录音</a></li>
+				<li><a href="#">声优录音</a></li>
+				<li><a href="#">作品录音</a></li>
+			</ul>
+		</div>
+	</div>
+
+		<div class="dropdown">
+		<a href="#ring" class="dropbtn1">铃声</a>
+		<div class="dropdown-content1">
+			<ul class="dd">
+				<li><a href="#">来电</a></li>
+				<li><a href="#">短信</a></li>
+				<li><a href="#">闹铃</a></li>
+			</ul>
+		</div>
+	</div>
+
+		</div>
+	</ul>
+
+
+	
+	
+		<!-- 推荐栏目 --> 		
+		<script type="text/javascript" src="推荐.js"></script>
+
+		<!--轮播-->
+		<div id="box">
+			<ul id="pic">
+				<li><img src="image/1.jpg"/></li>
+				<li><img src="image/2.jpg"/></li>
+			</ul>
+			<div id="btn">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				
+			</div>
+		</div>
+		<script type="text/javascript" src="轮播.js"></script>
+
+<div class="tuijian">
+	<div class="img">
+    <div>
+    <a target="_blank" href="">
+      <img class="saye" src="image/撒野.jpg" alt="图片文本描述" 
+		   width="300" height="200">
+    </a>
+  </div>
+  <div>
+    <a target="_blank" href="">
+      <img class="saye" src="image/伪渣.jpg" alt="图片文本描述" 
+		   width="300" height="200">
+    </a>
+  </div>
+</div> 
+<div class="img1">
+  <div >
+    <a target="_blank" href="">
+      <img class="saye" src="image/默读2.jpg" alt="图片文本描述" 
+		   width="300" height="200">
+    </a>
+  </div>
+  <div>
+    <a target="_blank" href="">
+      <img class="saye" src="image/默读1.jpg" alt="图片文本描述" 
+		   width="300" height="200">
+    </a>
+  </div>
+</div>
+<div class="img2">
+	<div >
+    <a target="_blank" href="">
+      <img class="saye" src="image/花王.jpg" alt="图片文本描述" 
+		   width="300" height="200">
+    </a>
+  </div>
+   <div>
+    <a target="_blank" href="">
+      <img class="saye" src="image/awm.jpg" alt="图片文本描述" 
+		   width="300" height="200">
+    </a>
+  </div>
+</div>
+</div>
+
+<!-- 热门音单，声优/社团广场 -->
+<div style="width: 1160px;height: 180px;">
+<div class="yindan">
+	<p class="yindan1">热门音单</p>
+</div>
+
+
+<div class="img5">
+	<div class="img4">
+		<a href="#" target="_blank">
+			<img class="img3 remenyindan" src="image/热门音单1.jpg" width="150" height="150">
+		</a>
+		<div class="desc">感动心灵的ACG旋律<br>总播放量：10 万</div>
+	</div>
+	<div class="img4">
+		<a href="#" target="_blank">
+			<img class="img3 remenyindan" src="image/热门音单2.jpg" width="150" height="150">
+		</a>
+		<div class="desc">「古风男女对唱」<br>总播放量：32.5 万</div>
+		
+	</div>
+	<div class="img4">
+		<a href="#" target="_blank">
+			<img class="img3 remenyindan" src="image/热门音单3.jpg" width="150" height="150">
+		</a>
+		<div class="desc">【情人节】恋爱要谨慎<br>总播放量：47.3 万</div>
+	</div>
+	<div class="img4">
+		<a href="#" target="_blank">
+			<img class="img3 remenyindan" src="image/热门音单4.jpg" width="150" height="150">
+		</a>
+		<div class="desc">社会主义兄弟情❤<br>总播放量：361.8 万</div>
+	</div>
+	<div class="img4">
+		<a href="#" target="_blank">
+			<img class="img3 remenyindan" src="image/热门音单5.jpg" width="150" height="150">
+		</a>
+		<div class="desc">翻唱|不同版本的告白气球<br>总播放量：4 万</div>
+	</div>
+
+	</div>
+</div>
+
+	
+<div class="yindan">
+	<p class="yindan2">声优/社团广场</p>
+</div>
+<div class="img6">	
+		<a href="#" target="_blank">
+			<img class="img6 remenyindan" src="image/声优广场.png" width="250" height="70">
+		</a>	
+		<a href="#" target="_blank">
+			<img class="img6 remenyindan" src="image/社团广场.png" width="250" height="90">
+		</a>	
+</div>
+
+<hr style="font-weight: 1px;color: gray;margin-top: 80px">
+<div class="end">
+	<a class="font" href="#">建议与反馈 </a><a class="font" href="">|</a>
+	<a class="font" href="#">APP下载 </a><a class="font" href="">|</a>
+	<a class="font" href="#">用户协议 </a><a class="font" href="">|</a>
+	<a class="font" href="#">探索与发现 </a><a class="font" href="">|</a>
+	<a class="font" href="#">联系我们 </a><a class="font" href="">|</a>
+	<a class="font" href="#">加入我们 </a><a class="font" href="">|</a>
+	<a class="font" href="#">百度百科 </a>
+</div>
+
+<div class="end1">
+	<a class="font" href="#">京ICP备14055174号-1 </a><a class="font" href="">|</a>
+	<a class="font" href="#">网络文化经营许可证: 京网文 [2017] 6429-733 号 </a>
+</div>
+
+
+</body>
+</html>

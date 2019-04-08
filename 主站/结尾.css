@@ -1,0 +1,21 @@
+.end {
+	text-align: center;
+	word-spacing: 2px;
+	margin-top: 30px;
+}
+.end1 {
+	text-align: center;
+	word-spacing: 2px;
+	margin-top: 10px;
+}
+
+.font {
+	font-family: sans-serif;
+	color: gray;
+}
+.end a:hover {
+	color: #000000;
+}
+.end1 a:hover {
+	color: #000000;
+}

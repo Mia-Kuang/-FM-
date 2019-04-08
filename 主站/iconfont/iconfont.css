@@ -1,0 +1,21 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1554030517911'); /* IE9 */
+  src: url('iconfont.eot?t=1554030517911#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAQAAAsAAAAACBwAAAOzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCcAqEKINaATYCJAMICwYABCAFhG0HLxv/BlGUDUqX7OeC6eYOpI3YSKbYETUi4mEqHh3+P70hgmitrJ6dQ1SPJF8+J5pBAQkfC+Q8GhsNbMT+75r+Mdv0vTlAVkU1SNOfA87lhmB0Qc1NGRSGhAEcnNNkQNl2bHNCUEDZCRWQcIkcqBOTmiwINfsC8P+fy+ndtcXmB8plzEl70KRegHFAgY2xdMzngRRIgXHD2JUXsZlA05x2eacX16NQKjN6BeKpplAoTenkmsxQF6olE7N4r6KeXiQn4J3/+fgvLUpJKgUj59z9hRRM/0pmTPG8pG65CP54FrBpFNgBMnGp1HZGQRjcUaCpBAstgXVlBr8UZenyVvvHI4gqI70NZiDvnPi24FR/mUBGAx/wrZebRphXqS13Tle2H2wyzM7a59mcbabPQHf32d5O8wygCzu2vSU4Zwsx7Du8vcez9iLHkM0NsLR5mUn8nHezZGu2eEeZEajIXQBAfbnNQsp9igTJcvk8fA/Hy3DQIElldfMNn3kWhOyMNyxByNIxPyNBWcYEy3bCtcyKhAq8N3cJAPUxzFCEVhIsczNczYcw9CThufHXFAtn50ffZX5uBswKOTOz1ZP+6B+bG04jP/e1s+CztYr5Ca1xK5/PnzJq3ELKFjrQe7Q96Xw9aWjUW1mR05HTH43qV/2Jq5+sLrZHOC225yb9Lv/UIqg+uj8nHkcqFt1UqYuO4g5whdjoEYupqmCrIhJXGq66DHa21/3FTDoTukkbtd49K9TQNridn3TOJGB1shLk0jPXW++geCYQB0kzrF4tfAXIT/cG2xpC1nZN7Un6ZmaRmuyrm47f+23ULjeWPFXH9ZFs5FV3SXYUaSx+q6f+6sb8IUwDlJXrherXfkfjwULLVs3efynK4Ovfx63fpawCRUb9BdiDH8lvWZFVoaFPWeaXRpMPGi8or6mJEnYNvfR1TEBsCXXOh5DUzEKhbgXNhB2oaNmFqrpDaNq2NL1lRCgQuYEt1wBC3y0kXV+g0HePZsIzVEy9Q1U/CqDpSowWbFkLrfyUQCoxRZL7RGOOzS2jLA8yw6gEJhVJoU+No/A1D+np7M5GltBGMcYQf0fplZITLhyLLILt0DQd4gpHRyY7VSnd0a4uXnamTuZYUO4UAVESSiGS9hEaxmHjbm2pPPf+MKQImChRU1ZhjUOCT2uc6NGpuwW6JLNblV1Lc98ORS9J4rgbJzgsxCK0INMMOgi3vJ0OMVIntYffNaoLVeNtZZ3zK6ynWwdNhjqF2aJQeUYdSwMAAA==') format('woff2'),
+  url('iconfont.woff?t=1554030517911') format('woff'),
+  url('iconfont.ttf?t=1554030517911') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1554030517911#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-maomi:before {
+  content: "\e602";
+}
+
